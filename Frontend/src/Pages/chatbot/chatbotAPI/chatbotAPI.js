@@ -3,7 +3,8 @@
 
 export const sendMessageToBot = async (message) => {
     // Replace with your actual backend URL
-    const API_BASE_URL = "https://portfolio-backend-m9q8.onrender.com"; // Example URL
+const API_BASE_URL = "https://portfolio-backend-m9q8.onrender.com";
+
     try {
         const response = await fetch(`${API_BASE_URL}/api/chatbot/message`, {
             method: "POST",
