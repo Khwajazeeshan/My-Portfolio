@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({ // Enable CORS for your frontend origin
-  origin: 'http://localhost:5173', // Allow your frontend's origin
+  origin: 'https://portfolio-backend-m9q8.onrender.com',
   methods: 'POST', // Allow specific HTTP methods
   credentials: true, // Allow credentials (if you need them)
 }));
